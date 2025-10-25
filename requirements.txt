@@ -2,5 +2,5 @@ streamlit
 pandas
 matplotlib
 torch
-transformers
+transformers>=4.35.0
 sentencepiece
