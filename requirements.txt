@@ -1,8 +1,1 @@
-Zadanie do wykonania
-Wykorzystaj Huggin Face do stworzenia swojej własnej aplikacji tłumaczącej tekst z języka angielskiego na język niemiecki. Zmodyfikuj powyższy kod dodając do niego kolejną opcję, tj. tłumaczenie tekstu. Informacje potrzebne do zmodyfikowania kodu znajdziesz na stronie Huggin Face - https://huggingface.co/docs/transformers/index
-🐞 Dodaj właściwy tytuł do swojej aplikacji, może jakieś grafiki?
-🐞 Dodaj krótką instrukcję i napisz do czego służy aplikacja
-🐞 Wpłyń na user experience, dodaj informacje o ładowaniu, sukcesie, błędzie, itd.
-🐞 Na końcu umieść swój numer indeksu
-🐞 Stwórz nowe repozytorium na GitHub, dodaj do niego swoją aplikację, plik z wymaganiami (requirements.txt)
-🐞 Udostępnij stworzoną przez siebie aplikację (https://share.streamlit.io) a link prześlij do prowadzącego
+streamlit pandas matplotlib torch transformers sentencepiece
