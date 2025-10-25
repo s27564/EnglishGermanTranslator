@@ -38,8 +38,11 @@ if option == options[0]:
 elif option == "Wydźwięk emocjonalny tekstu (eng)":
     text = st.text_area(label="Wpisz tekst")
     if text:
-        classifier = pipeline("sentiment-analysis")
-        answer = classifier(text)
-        st.write(answer)
+        try:
+            classifier = pipeline("sentiment-analysis")
+            answer = classifier(text)
+            st.write(answer)
+        except Exception as e:
+            st.error(f"Wystąpił błąd podczas analizy: {e}")
 
 st.write("s27564")
