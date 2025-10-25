@@ -1,1 +1,6 @@
-streamlit pandas matplotlib torch transformers sentencepiece
+streamlit
+pandas
+matplotlib
+torch
+transformers
+sentencepiece
